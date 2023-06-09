@@ -14,4 +14,4 @@ def return_dataset_images(train_loader, total_images):
         plt.yticks([])
 
 def GetCorrectPredCount(pPrediction, pLabels):
-  return pPrediction.argmax(dim=1).eq(pLabels).sum().item()    
+  return pPrediction.argmax(dim=1).eq(pLabels).sum().item() 
